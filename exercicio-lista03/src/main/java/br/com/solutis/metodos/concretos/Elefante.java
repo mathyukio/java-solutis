@@ -27,16 +27,16 @@ public class Elefante extends AnimalTerrestreAB{
 
     @Override
     public void comer() {
-        super.comer();
+        super.qtdComida += 12;
     }
 
     @Override
     public void mover() {
-        super.mover();
+        super.qtdCaminho += 3;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 4;
     }
 }

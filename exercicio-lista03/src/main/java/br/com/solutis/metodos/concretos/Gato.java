@@ -24,16 +24,16 @@ public class Gato extends AnimalTerrestreAB {
 
     @Override
     public void comer() {
-        super.comer();
+        super.qtdComida += 3;
     }
 
     @Override
     public void mover() {
-        super.mover();
+        super.qtdCaminho += 7;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 16;
     }
 }

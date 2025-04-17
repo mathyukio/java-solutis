@@ -25,16 +25,16 @@ public class Cachorro extends AnimalTerrestreAB {
 
     @Override
     public void comer() {
-        super.comer();
+        super.qtdComida += 2;
     }
 
     @Override
     public void mover() {
-        super.mover();
+        super.qtdCaminho += 9;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 12;
     }
 }

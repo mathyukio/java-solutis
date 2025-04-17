@@ -20,21 +20,21 @@ public class Peixe extends AnimalMarinhoAB {
 
     @Override
     public void comer() {
-        super.comer();
+        super.qtdComida += 4;
     }
 
     @Override
     public void mover() {
-        super.mover();
+        super.qtdCaminho += 5;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 3;
     }
 
     @Override
     public void nadar() {
-        super.nadar();
+        super.qtdCaminho += 4;
     }
 }

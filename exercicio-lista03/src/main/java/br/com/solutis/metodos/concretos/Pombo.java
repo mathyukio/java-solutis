@@ -29,21 +29,16 @@ public class Pombo  extends AnimalVoadorAB {
 
     @Override
     public void voar() {
-        super.voar();
+        super.qtdCaminho += 20;
     }
 
     @Override
-    public void comer() {
-        super.comer();
-    }
-
-    @Override
-    public void mover() {
-        super.mover();
+    public void comer(){
+        super.qtdComida += 2;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 8;
     }
 }

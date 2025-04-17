@@ -24,16 +24,16 @@ public class Leao extends AnimalTerrestreAB {
 
     @Override
     public void comer() {
-        super.comer();
+        super.qtdComida += 15;
     }
 
     @Override
     public void mover() {
-        super.mover();
+        super.qtdCaminho += 11;
     }
 
     @Override
     public void dormir() {
-        super.dormir();
+        super.qtdHoras += 7;
     }
 }
